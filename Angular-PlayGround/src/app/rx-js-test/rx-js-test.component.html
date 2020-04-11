@@ -1,0 +1,11 @@
+<div>
+    <h2>Observable Test 1</h2>
+    <span>&emsp;Take a look at console</span>
+</div>
+
+<div>
+    <h2>Observable Test 2</h2>
+    <div *ngFor="let number of stream2$ | async">
+        <span>&emsp;{{number}}</span>
+    </div> 
+</div>
